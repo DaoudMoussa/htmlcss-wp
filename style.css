@@ -173,12 +173,12 @@ aside{
     /*============== Fine proprietá Input content box============= */
 
     /*============== Inizio proprietá Tag content box============= */
-.tags a{
+.tags a, .article-link{
     color: #99cc33;
     text-decoration: none;
 }
 
-.tags a:hover{
+.tags a:hover, .article-link:hover{
     color:#669900;
     text-decoration: underline;
 }
@@ -198,4 +198,15 @@ aside{
 main{
     width: calc(50% - 20px);
     margin: 0 10px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .24);
+    /* padding: 20px; */
+}
+
+.article-section{
+    padding:20px;
+}
+
+.first-article-foto{
+    width: 100%
 }
