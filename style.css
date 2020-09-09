@@ -8,12 +8,11 @@
 
 body{
     background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png");
-    padding: 15px;
 }
 
 #TotalContainer{
-    width:75%;
-    margin: auto;
+    width: 85%;
+    margin: 10px auto 0;
 }
 /* ======Inizio proprietá generali===== */
 
@@ -191,7 +190,7 @@ aside{
     font-size: 20px
 }
 
-    /*============== Inizio proprietá Tag content box============= */
+    /*============== Fine proprietá Tag content box============= */
 
 /* ====== Fine proprietá box ===== */
 
@@ -200,7 +199,6 @@ main{
     margin: 0 10px;
     background-color: #FFF;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, .24);
-    /* padding: 20px; */
 }
 
 .article-section{
@@ -263,3 +261,50 @@ hr{
     margin: 25px;
     background-color: rgba(0, 0, 0, .08);
 }
+/* ====Fine proprietá sezione principale======== */
+
+/* ========Inizio proprieta'footer========= */
+footer{
+    margin-top: 10px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .24);
+    padding: 30px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #666666;
+}
+
+.copyright, .theme{
+    text-align: left;
+}
+
+.theme a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.theme a:hover{
+    text-decoration: underline;
+}
+
+.contatti{
+    float:right;
+}
+.social-box{
+    margin:0 5px;
+    display: inline-block;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, .06);
+    padding: 10px;
+    text-decoration: none;
+    color: #666666;
+    font-size: 16px;
+}
+
+.social-box:hover{
+    padding:12px;
+    font-size: 18px;
+    background: white;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+/* =====Fine proprieta' footer======== */
