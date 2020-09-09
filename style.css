@@ -108,13 +108,6 @@ aside{
     width: 25%;
 }
 
-main{
-    background-color: purple;
-    height: 400px;
-    width: calc(50% - 20px);
-    margin: 0 10px;
-}
-
 /* =====inizio proprietá box===== */
 .content-box{
     width:100%;
@@ -134,7 +127,7 @@ main{
     list-style-type: none;
 }
 
-.content-box a{
+.link-list a{
     display: block;
     color: #99cc33;
     padding: 10px;
@@ -142,7 +135,7 @@ main{
     font-size: 16px;
 }
 
-.content-box a:hover{
+.link-list a:hover{
     background-color: rgba(0, 0, 0, 0.04);
     box-shadow: inset 0px 3px 0px rgba(0, 0, 0, .08);
     text-decoration: underline;
@@ -177,6 +170,32 @@ main{
     box-shadow: inset 1px 1px 0 rgba(0,0, 0, 0.25);
     background-color: #504741;
 }
+    /*============== Fine proprietá Input content box============= */
 
+    /*============== Inizio proprietá Tag content box============= */
+.tags a{
+    color: #99cc33;
+    text-decoration: none;
+}
+
+.tags a:hover{
+    color:#669900;
+    text-decoration: underline;
+}
+
+.little-tag{
+    font-size: 14px;
+}
+
+.big-tag{
+    font-size: 20px
+}
+
+    /*============== Inizio proprietá Tag content box============= */
 
 /* ====== Fine proprietá box ===== */
+
+main{
+    width: calc(50% - 20px);
+    margin: 0 10px;
+}
