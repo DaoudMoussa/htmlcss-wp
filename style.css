@@ -1,3 +1,4 @@
+/* ======Inizio proprietá generali===== */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -14,7 +15,9 @@ body{
     width:75%;
     margin: auto;
 }
+/* ======Inizio proprietá generali===== */
 
+/* ======Inizio proprietá header===== */
 header{
     background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg");
     background-size: cover;
@@ -36,28 +39,30 @@ header h2{
     font-weight:lighter;
     font-size: 20px;
 }
+/* ======Fine proprietá header===== */
 
+/* ======Inizio proprietá menu===== */
 nav{
     background-color: #504741;
     text-align: center;
+    line-height: 0;
 }
 
-nav::after{
+ul{
+    display: inline-block;
+    text-align: center;
+}
+
+ul::after{
     content: '';
-    display:table;
+    display: table;
     clear:both;
 }
 
 nav li {
     display: inline-block;
-    color:white;
-    padding: 10px;
     float:left;
-}
-
-.ContainerLinks{
-    width:58%;
-    margin: auto;
+    height:auto;
 }
 
 nav li:not(:last-child) {
@@ -69,9 +74,25 @@ nav li:not(:first-child){
 
 }
 
-nav li:hover{
+nav a:hover{
     background-color: #302b27;
 }
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    padding: 10px;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.fa-angle-down{
+    font-weight:lighter;
+    font-size: 10px;
+}
+/* ======Fine proprietá menu===== */
+
 
 #MainContainer{
     margin: 5px 0;
